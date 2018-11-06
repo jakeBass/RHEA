@@ -110,7 +110,7 @@ var myLineChart3 = new Chart(ctx3, {
   data: {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dev"],
     datasets: [{
-      label: "Articles Read",
+      label: "Articles Read Per User",
       lineTension: 0.3,
       backgroundColor: "rgba(2,117,216,0.2)",
       borderColor: "rgba(2,117,216,1)",
@@ -121,7 +121,7 @@ var myLineChart3 = new Chart(ctx3, {
       pointHoverBackgroundColor: "rgba(2,117,216,1)",
       pointHitRadius: 50,
       pointBorderWidth: 2,
-      data: [101, 92, 83, 75, 75, 85, 92, 98, 104, 80, 99, 100],
+      data: [101, 92, 83, 75, 75, 85, 92, 98, 104, 80, 99, 100,],
     }],
   },
   options: {
